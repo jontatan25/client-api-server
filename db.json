@@ -1,44 +1,76 @@
 {
-    "clients": [
-      {
-        "id": 1,
-        "name": "Enriqueta Parlem",
-        "docType": "nif",
-        "docNum": "11223344E",
-        "email": "enriqueta.P@example.com",
-        "customerId": "11111",
-        "phone": "668668668",
-        "products": [
-          { "id": 1, "name": "FIBRA 1000MB," },
-          { "id": 2, "name": "MOBIL 500GB" }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Michael Johnson",
-        "docType": "driver's license",
-        "docNum": "EF456789",
-        "email": "michael.j@example.com",
-        "customerId": "44444",
-        "phone": "555555555",
-        "products": [
-          { "id": 7, "name": "FIBER OPTIC 2000MB" },
-          { "id": 8, "name": "UNLIMITED CALLS" }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "David Brown",
-        "docType": "driver's license",
-        "docNum": "EF456789",
-        "email": "david.brown@example.com",
-        "customerId": "44444",
-        "phone": "555555555",
-        "products": [
-          { "id": 7, "name": "FIBER OPTIC 2000MB" },
-          { "id": 8, "name": "UNLIMITED CALLS" }
-        ]
-      }
-    ]
-  }
-  
+  "clients": [
+    {
+      "id": 1,
+      "docType": "nif",
+      "docNum": "11223344E",
+      "email": "it@parlem.com",
+      "customerId": "11111",
+      "givenName": "Enriqueta",
+      "familyName1": "Parlem",
+      "phone": "668668668"
+    },
+    {
+      "id": 2,
+      "docType": "driver's license",
+      "docNum": "EF456789",
+      "email": "michael.j@example.com",
+      "customerId": "44444",
+      "givenName": "Michael",
+      "familyName1": "Johnson",
+      "phone": "555555555"
+    },
+    {
+      "id": 3,
+      "docType": "driver's license",
+      "docNum": "EF456789",
+      "email": "david.brown@example.com",
+      "customerId": "55555",
+      "givenName": "David",
+      "familyName1": "Brown",
+      "phone": "555555555"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1111111,
+      "productName": "FIBRA 1000MB",
+      "mbSpeed": 1000,
+      "gbData": null,
+      "productTypeName": "ftth",
+      "numeracioTerminal": 933933933,
+      "soldAt": "2019-01-09 14:26:17",
+      "customerId": "11111"
+    },
+    {
+      "_id": 1111112,
+      "productName": "MOBIL 500GB",
+      "mbSpeed": null,
+      "gbData": 500,
+      "productTypeName": "4G",
+      "numeracioTerminal": 696696969,
+      "soldAt": "2020-08-01 18:30:27",
+      "customerId": "11111"
+    },
+    {
+      "id": 7,
+      "productName": "FIBER OPTIC 2000MB",
+      "mbSpeed": 2000,
+      "gbData": null,
+      "productTypeName": "ftth",
+      "numeracioTerminal": 123456789,
+      "soldAt": "2018-05-12 10:00:00",
+      "customerId": "44444"
+    },
+    {
+      "id": 8,
+      "productName": "UNLIMITED CALLS",
+      "mbSpeed": null,
+      "gbData": null,
+      "productTypeName": "mobile",
+      "numeracioTerminal": 987654321,
+      "soldAt": "2019-07-19 16:45:00",
+      "customerId": "44444"
+    }
+  ]
+}
